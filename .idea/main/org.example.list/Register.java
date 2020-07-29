@@ -1,4 +1,4 @@
-import org.example.ownToDoList.User;
+import org.example.list.User;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
