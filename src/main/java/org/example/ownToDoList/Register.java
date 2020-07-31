@@ -1,4 +1,6 @@
-import org.example.list.User;
+package org.example.ownToDoList;
+
+
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
