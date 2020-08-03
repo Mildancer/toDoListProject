@@ -1,6 +1,5 @@
 package org.example.ownToDoList;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class SingleTask {
@@ -20,11 +19,11 @@ public class SingleTask {
 
     public int getId() {
         return id;
-    }
+    }                    //long
 
     public void setId(int id) {
         this.id = id;
-    }
+    }         //long
 
     public String getNameOfTask() {
         return nameOfTask;
@@ -36,7 +35,7 @@ public class SingleTask {
 
     public String getIsItDone() {
         return isItDone;
-    }
+    }       //status ENUM docelowo albo boolean done + dodatkowe pole zamieniajas long zamiejace sie -typ prymitywny nie ma nulli
 
     public void setIsItDone(String isItDone) {
         this.isItDone = isItDone;

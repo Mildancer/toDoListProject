@@ -1,18 +1,13 @@
 package org.example.ownToDoList;
 
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-//@WebServlet(name = "ToDoListServlet", value = "/list")
+/**
+ *
+ */
+
 public class ToDoList {
 
     private List<SingleTask> toDoList = new ArrayList<>();
@@ -25,6 +20,7 @@ public class ToDoList {
         this.toDoList = toDoList;
     }
 
+    // docelowo unit test
     public ToDoList() {
         super();
         SingleTask singleTask = new SingleTask();
